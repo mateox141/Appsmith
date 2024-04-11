@@ -12,7 +12,7 @@ export default {
 					 resultado = (valor1/valor2)*100;
 					}else{
 						if(!Api3.data[0]['Forma de cálculo'].includes('100')){
-							 resultado = valor1;
+							 resultado = valor1/valor2;
 						}else{
 							 resultado = valor1;
 						}
