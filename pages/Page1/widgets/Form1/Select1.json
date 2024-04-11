@@ -44,7 +44,7 @@
     "parentColumnSpace": 13.234375,
     "dynamicTriggerPathList": [{"key": "onDropdownOpen"}],
     "labelPosition": "Top",
-    "sourceData": "{{ \nArray.from(new Set(Api1.data.map(obj => obj.Subproceso)))\n    .map(direction => ({ 'label': direction, 'value': direction }))\n}}",
+    "sourceData": "{{ \nArray.from(new Set(Api4.data.map(obj => obj.Subproceso)))\n    .map(direction => ({ 'label': direction, 'value': direction }))\n}}",
     "key": "kcx4mewn1a",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
