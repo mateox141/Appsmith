@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 4,
     "widgetName": "IconButton1",
-    "onClick": "{{closeModal('Modal1')}}",
+    "onClick": "{{closeModal('Modal1');\nApi6.run();\nJSObject5.IconButton1onClick();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Icon button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.b08054586989b185a0801e9a34f8ad49.svg",
@@ -17,6 +17,7 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "animateLoading": true,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 58,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

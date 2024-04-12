@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "Api3",
+    "name": "Api6",
     "datasource": {
       "name": "Indicadores_Gestion",
       "pluginId": "google-sheets-plugin",
@@ -21,29 +21,28 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "FETCH_MANY"
+          "data": "UPDATE_ONE"
         },
         "entityType": {
           "data": "ROWS"
         },
         "pagination": {
           "data": {
-            "limit": "999",
+            "limit": "20",
             "offset": "0"
           }
         },
         "projection": {
-          "data": [
-            "Forma de cálculo",
-            "Nombre del indicador",
-            "Subproceso"
-          ]
+          "data": []
         },
         "queryFormat": {
           "data": "ROWS"
         },
         "range": {
           "data": ""
+        },
+        "rowObjects": {
+          "data": "{{\n  {\n\t\trowIndex: Api3.data[0].rowIndex,\n\t\t\"Resultado Cuant.\": Text4.text\n\t}\n}}"
         },
         "sheetName": {
           "data": "Indicadores"
@@ -54,50 +53,35 @@
         "smartSubstitution": {
           "data": true
         },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Descending"
-            }
-          ]
-        },
         "tableHeaderIndex": {
           "data": "1"
         },
         "where": {
           "data": {
-            "condition": "AND",
-            "children": [
-              {
-                "condition": "EQ",
-                "key": "Nombre del indicador",
-                "value": "{{Select2.selectedOptionLabel}}"
-              }
-            ]
+            "condition": "AND"
           }
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "formData.where.data.children[0].value"
+        "key": "formData.rowObjects.data"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Select2.selectedOptionLabel"
+      "\n  {\n\t\trowIndex: Api3.data[0].rowIndex,\n\t\t\"Resultado Cuant.\": Text4.text\n\t}\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-10T13:54:41Z"
+    "createdAt": "2024-04-11T23:59:50Z"
   },
-  "id": "Page1_Api3",
+  "id": "Page1_Api6",
   "deleted": false,
-  "gitSyncId": "6614bea196afb80abba0ecbc_66169a2133cdaa46adf87cd4"
+  "gitSyncId": "66170e0ed61198757a318c5b_66187976fffe6871657cd59e"
 }

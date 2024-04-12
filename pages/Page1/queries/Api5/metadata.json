@@ -42,7 +42,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{{\n   {\n\t\t rowIndex: Select2.selectedOptionLabel,\n\t\t Numerador: Input1.text,\n\t\t Denomiador: Input2.text\n\t }\n}}"
+          "data": "{{\n   {\n\t\t rowIndex: Api3.data[0].rowIndex,\n\t\t Numerador: Input1.text,\n\t\t Denominador: Input2.text,\n\t }\n}}"
         },
         "sheetName": {
           "data": "Indicadores"
@@ -73,7 +73,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "\n   {\n\t\t rowIndex: Select2.selectedOptionLabel,\n\t\t Numerador: Input1.text,\n\t\t Denomiador: Input2.text\n\t }\n"
+      "\n   {\n\t\t rowIndex: Api3.data[0].rowIndex,\n\t\t Numerador: Input1.text,\n\t\t Denominador: Input2.text,\n\t }\n"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

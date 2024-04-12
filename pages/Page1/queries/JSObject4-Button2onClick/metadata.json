@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "Button1onClick",
-    "fullyQualifiedName": "JSObject4.Button1onClick",
+    "name": "Button2onClick",
+    "fullyQualifiedName": "JSObject4.Button2onClick",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-11T00:51:02Z"
+    "createdAt": "2024-04-12T00:04:15Z"
   },
-  "id": "Page1_JSObject4.Button1onClick",
+  "id": "Page1_JSObject4.Button2onClick",
   "deleted": false,
-  "gitSyncId": "661731cad61198757a318ea0_661733f62b166722c844d442"
+  "gitSyncId": "66170e0ed61198757a318c5b_66187a7fbe20df3db5c5105c"
 }
