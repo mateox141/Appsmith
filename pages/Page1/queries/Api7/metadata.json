@@ -41,6 +41,12 @@
         "range": {
           "data": ""
         },
+        "rowObjects": {
+          "data": "{{\n  {\n\t\trowIndex: Api3.data[0].rowIndex,\n\t\t\"Resultado Cual.\": Text5.text\n\t}\n}}"
+        },
+        "sheetName": {
+          "data": "Indicadores"
+        },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1p7fVOfvluWDHRZzRiDrANZRz9C89SZ2caxx5E6a8Ds8/edit"
         },
@@ -58,11 +64,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "\n  {\n\t\trowIndex: Api3.data[0].rowIndex,\n\t\t\"Resultado Cual.\": Text5.text\n\t}\n"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
